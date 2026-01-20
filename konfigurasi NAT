@@ -1,0 +1,11 @@
+Masuk ke Winbox dan koneksikan ke router MikroTik – Pakai Winbox untuk menghubungkan PC/Laptop ke MikroTik via kabel atau wireless. 
+YouTube
+Konfigurasi IP Address – Tetapkan IP pada router dan LAN supaya router diketahui di jaringan. 
+YouTube
+Setting default gateway – Supaya router bisa tahu ke mana data akan keluar ke internet. 
+YouTube
+Konfigurasi DNS (opsional tapi direkomendasikan) – Agar nama domain (seperti google.com) bisa diakses. 
+Konfigurasi NAT – Di menu IP → Firewall → NAT, buat rule baru: Chain = srcnat
+Out Interface = interface yang tersambung ke internet (misalnya ether1) Action = Masquerade Ini membuat alamat IP privat di LAN “disamarkan” sebagai IP router untuk akses internet. 
+DHCP Server (opsional) – Supaya perangkat di jaringan lokal mendapat IP otomatis dari router. 
+Uji koneksi Internet – Pake fitur ping di terminal MikroTik untuk cek koneksi internet. 
