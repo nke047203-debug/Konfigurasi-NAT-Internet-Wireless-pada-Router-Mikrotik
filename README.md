@@ -1,0 +1,1 @@
+# Konfigurasi-NAT-Internet-Wireless-pada-Router-Mikrotik
